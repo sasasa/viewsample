@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBoxDrink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -45,13 +45,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/checkBoxFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:text="@string/cb_food"
-        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxDrink"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <RadioGroup
@@ -68,23 +68,23 @@
         android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox">
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxDrink">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButtonMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rb_male" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButtonFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rb_female" />
     </RadioGroup>
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerCurry"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -99,7 +99,7 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <ListView
-        android:id="@+id/lv"
+        android:id="@+id/listView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -107,10 +107,11 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:choiceMode="multipleChoice"
         android:entries="@array/lv_cocktaillist"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner">
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCurry">
 
     </ListView>
 
@@ -123,5 +124,5 @@
         android:layout_marginTop="8dp"
         android:text="@string/bt_save"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lv" />
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
