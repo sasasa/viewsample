@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lv_cocktaillist">
+        <item>ホワイトレディー</item>
+        <item>パラライカ</item>
+        <item>XYZ</item>
+        <item>ニューヨーク</item>
+        <item>マンハッタン</item>
+        <item>ミシシッピミュール</item>
+        <item>ブルーハワイ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp_currylist">
+        <item>ドライカレー</item>
+        <item>カツカレー</item>
+        <item>ビーフカレー</item>
+        <item>チキンカレー</item>
+        <item>シーフードカレー</item>
+        <item>キーマカレー</item>
+        <item>グリーンカレー</item>
+    </string-array>
+</resources>
